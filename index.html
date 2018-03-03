@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- this is a comment -->
 <html>
   <head>
     <meta charset="utf-8">
@@ -13,24 +14,18 @@
           <ul>
             <a href="#"><li>About Us</li></a>
             <a href="#"><li>Therapy</li></a>
-            <a href="#"><li>Shopping</li></a>
-              <ul class="dropDown">
-                <a href="#"><li>Merchandise</li></a>
-                <a href="#"><li>Donations</li></a>
-              </ul>
-            <a href="#"><li>Register</li></a>
-              <ul class="dropDown">
-                <a href="#"><li>Sign Up</li></a>
-                    <ul class="dropDownSubmenu">
-                      <a href="#"><li>Patient</li></a>
-                      <a href="#"><li>Therapist</li></a>
-                    </ul>
-                  <a href="#"><li>Log In</li></a>
-                  <ul class="dropDownSubmenu">
-                    <a href="#"><li>Patient</li></a>
-                    <a href="#"><li>Therapist</li></a>
-                  </ul>
-              </ul>
+            <a href="#"><li class="dropDown">Shopping
+              <ul class="dropDownContent"></ul>
+            </li></a>
+            <a href="#"><li class="dropDown">Log In
+              <ul class="dropDownContent">
+                <a href="#"><li class="dropDownSubmenu">Sign Up
+                    <ul class="dropDownSubmenuContent"></ul>
+                </li></a>
+                <a href="#"><li class="dropDownSubmenu">Log In
+                  <ul class="dropDownSubmenuContent"></ul>
+                </li></a>
+            </ul></li></a>
           </ul>
         </h2>
       </nav>
@@ -48,5 +43,6 @@
       <p id="leftFooter">Copyright Info</p>
       <p id="rightFooter">Contact Us(info)</p>
     </footer>
+    <script src="dropdown.js"></script>
   </body>
 </html>
