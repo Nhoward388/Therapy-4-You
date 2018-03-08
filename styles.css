@@ -16,8 +16,13 @@ body {
    rgb(255, 255, 140) -5px 0px 15px;
 }
 
+header img {
+  float: left;
+  /* width: 30%; */
+}
+
 .header {
-  width: 70%;
+  width: 100%;
   float: right;
   text-align: center;
   margin: 0;
