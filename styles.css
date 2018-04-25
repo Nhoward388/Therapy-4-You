@@ -16,24 +16,36 @@ body {
    rgb(255, 255, 140) -5px 0px 15px;
 }
 
-header img {
-  float: left;
-  /* width: 30%; */
-}
-
 .header {
   width: 100%;
-  float: right;
+  float: left;
   text-align: center;
-  margin: 0;
+  /* margin: 0; */
+}
+
+header img {
+  float: left;
+  width: 30%;
+  height: 100%;
 }
 
 #header {
   float: left;
+  height: 0px;
+  font-size: 3.5em;
+  position: relative;
+  bottom: 40px;
 }
 
-#navbar ul a li {
-  display: inline;
+#navbar ul {
+  width: 70%;
+  float: right;
+  list-style-type: none;
+  padding: 0;
+}
+
+#navbar ul a {
+  display: inline-block;
   width: 25%;
   text-align: center;
 }

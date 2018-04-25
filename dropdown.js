@@ -1,12 +1,12 @@
 function dropDown() {
     var dropDown = document.getElementsByClassName("dropDown");
     var dropDownContent = document.getElementsByClassName("dropDownContent");
-    var dropDownChildren = document.appendChild("a");
-    var dropDownChildrenL = document.appendChild("l");
+    var dropDownChildren = document.createElement("a");
+    var dropDownChildrenL = document.createElement("l");
     var dropDownSubmenu = document.getElementsByClassName("dropDownSubmenu");
     var dropDownSubmenuContent = document.getElementsByClassName("dropDownSubmenuContent");
-    var dropDownSubmenuChildren = document.appendChild("a");
-    var dropDownSubmenuChildrenL = document.appendChild("l");
+    var dropDownSubmenuChildren = document.createElement("a");
+    var dropDownSubmenuChildrenL = document.createElement("l");
     for (var i = 0; i < 2; i++) {
         if (dropDown[i] = querySelectorAll(".dropDown:hover")[i]) {
             if (i == 0) {
