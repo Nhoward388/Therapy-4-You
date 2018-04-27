@@ -1,0 +1,14 @@
+.navbar {
+    width: 100%;
+  }
+  
+  .nav-item {
+    display: block;
+    /* background-color: purple; */
+    margin: 2px;
+  }
+  
+  .dropdown-menu {
+    background-color: orange;
+  }
+  

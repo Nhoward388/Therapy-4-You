@@ -6,7 +6,7 @@
     <title>Therapy 4 You</title>
     <link rel="stylesheet" href="styles/bootstrap.min.css">    
     <link rel="stylesheet" href="styles/base.css">    
-    <link rel="stylesheet" href="styles/index.css">        
+    <link rel="stylesheet" href="styles/donation.css">        
   </head>
   <body>
     <div class="container">
@@ -47,21 +47,37 @@
           </div>        
         </div>
       </nav>
-      <section id="parallax">
-        <h1>Providing accessible counseling today for happier minds tomorrow.</h1>
-      </section>
-      <main>
-        <div class="row">
-          <div class="col-sm-8">
-            <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="col-sm-4">
-              <img class="img-thumbnail" src="images/therapy2.jpg" alt="Therapy Session"/>
-          </div>
+      <div class="row">
+          <h1>We need your support now!</h1>
+      </div>
+      <div class="row">
+        <div class="col-6" id="progressBar1">
+            Details
         </div>
-      </main>
+        <div class="col-6" id="progressBar2">
+            Payment
+        </div>
+      </div>
+      <div class="row">
+          <form action="" method="post" id="donationForm">
+              <fieldset>
+                <legend>Details of Donation</legend>
+                <label class="details" for="donationAmount">Donation Amount</label>
+                <input class="details" type="number" name="donationAmount" id="donationAmount">
+                <label class="details" for="name">Name</label>
+                <input class="details" type="text" name="name" id="name">
+                <label class="details" for="date">Date</label>
+                <input class="details" type="text" name="date" id="date">
+                <div class="row">
+                    <div class="col-6" id="backButton"></div>
+                    <div class="col-6">
+                        <input type="button" name="submitButton" id="submitButton" value="Next">
+                    </div>
+                </div>
+                </fieldset>
+          </form>
+      </div>
+
       <footer>
         <div class="row">
           <div class="col-6">
@@ -76,5 +92,6 @@
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="javascript/donation.js"></script>
   </body>
 </html>
