@@ -60,21 +60,23 @@
       </div>
       <div class="row">
           <form action="" method="post" id="donationForm">
-              <fieldset>
-                <legend>Details of Donation</legend>
+            <div class="row" id="inputs">
+              <fieldset id="details">
+                <legend>Donation Details</legend>
                 <label class="details" for="donationAmount">Donation Amount</label>
                 <input class="details" type="number" name="donationAmount" id="donationAmount">
                 <label class="details" for="name">Name</label>
                 <input class="details" type="text" name="name" id="name">
                 <label class="details" for="date">Date</label>
                 <input class="details" type="text" name="date" id="date">
-                <div class="row">
-                    <div class="col-6" id="backButton"></div>
-                    <div class="col-6">
-                        <input type="button" name="submitButton" id="submitButton" value="Next">
-                    </div>
+              </fieldset>
+            </div>
+              <div class="row">
+                <div class="col-6" id="backSpace"></div>
+                <div class="col-6" id="nextSpace">
+                    <input type="button" name="submitButton" id="submitButton" value="Next">
                 </div>
-                </fieldset>
+              </div>
           </form>
       </div>
 
