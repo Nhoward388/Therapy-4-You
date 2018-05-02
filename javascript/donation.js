@@ -18,15 +18,24 @@ var payment = {
     createPayment: function() {
         onPayment = true;
         $("#details").remove();
-        $("#inputs").append(payment.fieldSet).append(payment.legend, payment.cardName, payment.cardContainer, payment.cardNumber, payment.expirationDate, payment.cvc);
-        $("#cards").append(payment.cardRow)
-        $("#cardRow").append(payment.cardColumn, payment.cardColumn, payment.cardColumn, payment.cardColumn);
-        $(".cardCols")[0].append(payment.card1);
-        $(".cardCols")[1].append(payment.card2);
-        $(".cardCols")[2].append(payment.card3);
-        $(".cardCols")[3].append(payment.card4);
-        $("#backSpace").append(payment.backButton);
-        $("#submitButton").value = "Submit";
+        document.getElementById("inputs").innerHTML = payment.fieldset;
+        document.getElementById("payment").innerHTML = payment.legend + payment.cardName + payment.cardContainer + payment.cardNumber + payment.expirationDate + payment.cvc;
+        document.getElementById("cards").innerHTML = payment.cardRow;
+        document.getElementById("cardRow").innerHTML = payment.cardColumn + payment.cardColumn + payment.cardColumn + payment.cardColumn;
+        for (var i = 0; i < document.getElementsByClassName("cardCols").length; i++) {
+            document.getElementsByClassName("cardCols")[i].innerHTML = payment.card + [i]; 
+        };
+        document.getElementById("backSpace").innerHTML = payment.backButton;
+        document.getElementById("")
+        // $("#inputs").append(payment.fieldSet).append(payment.legend, payment.cardName, payment.cardContainer, payment.cardNumber, payment.expirationDate, payment.cvc);
+        // $("#cards").append(payment.cardRow)
+        // $("#cardRow").append(payment.cardColumn, payment.cardColumn, payment.cardColumn, payment.cardColumn);
+        // $(".cardCols")[0].append(payment.card1);
+        // $(".cardCols")[1].append(payment.card2);
+        // $(".cardCols")[2].append(payment.card3);
+        // $(".cardCols")[3].append(payment.card4);
+        // $("#backSpace").append(payment.backButton);
+        // $("#submitButton").value = "Submit";
     }
 };
 
@@ -41,7 +50,7 @@ var details = {
         $("#payment").remove();
         $("#inputs").append(details.fieldset).append(details.legend, details.donation, details.name, details.date);
         $("#backButton").remove();
-        $("#submitButton").value = "Next"
+        $("#submitButton").value = "Next";
     }
 };
 
