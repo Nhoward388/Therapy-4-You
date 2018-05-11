@@ -4,7 +4,7 @@ var payment = {
     fieldSet: '<fieldset id="payment"></fieldset>',
     legend: '<legend>Payment Details</legend>',
     cardName: "<label class='details' for='name'>Name</label><input class='details' type='text' name='name' id='name'>",
-    cardContainer: "<fieldset id='cards'></label>",
+    cardContainer: "<fieldset id='cards'></fieldset>",
     cardRow: '<div class="row" id="cardRow"></div>',
     cardColumn: "<div class='col-3 cardCols'></div>",
     card1: "<input name='credit' value='amex' type='radio' required/><img src='images/card_amex.png' alt='American Express'/>",

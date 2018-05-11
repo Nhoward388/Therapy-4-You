@@ -58,19 +58,77 @@
         <div class="row">
           <div class="col-3 items" id="item1">
             <img class="img" src="images/item1.png" alt="Black Hoodie">
-            <h3>Hoodie: 50$</h3>
+            <form action="">
+              <fieldset>
+                <h3>Hoodie: 50$</h3>
+                <select name="size" id="hoodieSize">
+                  <option value="small">Small</option>
+                  <option value="medium" selected>Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <select name="amount" class="amount">
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>                  
+                </select>
+                <button type="submit" id="hoodieSubmit" class="submitButton" value="Add to Cart">Add to Cart</button>
+              </fieldset>
+            </form>
           </div>
           <div class="col-3 items" id="item2">
-              <img class="img" src="images/item2.png" alt="Water Bottle">
-            <h3>Water Bottle: 10$</h3>
+            <img class="img" src="images/item2.png" alt="Water Bottle">
+            <form action="">
+              <fieldset>
+                <h3>Water Bottle: 10$</h3>
+                <select name="amount" class="amount">
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>                  
+                </select>
+                <button type="submit" id="bottleSubmit" class="submitButton" value="Add to Cart">Add to Cart</button>
+              </fieldset>
+            </form>
           </div>
           <div class="col-3 items" id="item3">
-              <img class="img" src="images/item3.png" alt="Black Long Sleeve">
-            <h3>Long Sleeve: 40$</h3>
+            <img class="img" src="images/item3.png" alt="Black Long Sleeve">
+            <form action="">
+              <fieldset>
+                <h3>Long Sleeve: 40$</h3>
+                <select name="size" id="sleeveSize">
+                  <option value="small">Small</option>
+                  <option value="medium" selected>Medium</option>
+                  <option value="large">Large</option>
+                </select>
+                <select name="amount" class="amount">
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>                  
+                </select>
+                <button type="submit" id="sleeveSubmit" class="submitButton" value="Add to Cart">Add to Cart</button>
+              </fieldset>
+            </form>
           </div>
           <div class="col-3 items" id="item4">
-              <img class="img" src="images/item4.png" alt="Mug">
-            <h3>Mug: 5$</h3>
+            <img class="img" src="images/item4.png" alt="Mug">
+            <form action="" method="get">
+              <fieldset>
+                <h3>Mug: 5$</h3>
+                <select name="amount" class="amount">
+                  <option value="1" selected>1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>                  
+                </select>
+                <button type="submit" id="mugSubmit" class="submitButton" value="Add to Cart">Add to Cart</button>
+              </fieldset>
+            </form>
           </div>
         </div>
       </main>
@@ -88,6 +146,6 @@
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    <script src="javascript/donation.js"></script>
+    <script src="javascript/shopping.js"></script>
   </body>
 </html>
