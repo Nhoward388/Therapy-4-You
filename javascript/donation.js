@@ -27,7 +27,7 @@ var payment = {
         $(".cardCols")[3].innerHTML = payment.card4;
         $("#backSpace").append($(payment.backButton).on("click", details.createDetails));
         $("#submitButton").attr("value", "Submit");
-        $("#submitButton").attr("onclick", "function() {alert('Thank you for your donation!')};");
+        $("#submitButton").on("click", function() {alert('Thank you for your donation!')});
         var onPayment = true;        
     }
 };
