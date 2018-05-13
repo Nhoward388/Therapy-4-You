@@ -5,8 +5,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Therapy 4 You</title>
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
 </head>
 <body>
-    
+    <div class="container">
+      <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="row navbar">
+            <div class="col-sm-4">
+              <img src="images/T4U.png" alt="Logo">
+            </div>
+            <div class="col-sm-4">
+              <ul class="navbar-nav mr-auto navButtons">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="therapy.html">Therapy</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Login
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="signIn.html">Sign-In</a>
+                    <a class="dropdown-item" href="signUp.html">Sign-Up</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Contribute
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="donation.html">Donate</a>
+                    <a class="dropdown-item" id="merchandise" href="shopping.html">Merchandise</a>
+                  </div>
+                  </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <form class="signIn" action="therapy.html" method="post">
+        <legend>Sign In</legend>
+        <label for="username">User Name:</label>
+        <input type="text" name="username" value="">
+        <label for="password">Password:</label>
+        <input type="text" name="password" value="">
+        <button type="button" name="signUpLink"><a href="signUp.html">Sign Up</a></button>
+        <button type="button" name="signIn">Sign In</button>
+      </form>
+      <footer>
+        <div class="row">
+          <div class="col-6">
+            <p class="text-center footer">Copyright Info</p>
+          </div>
+          <div class="col-6">
+            <p class="text-center footer">Contact Us</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 </body>
 </html>
