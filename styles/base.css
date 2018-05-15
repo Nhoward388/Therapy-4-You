@@ -1,14 +1,19 @@
 .navbar {
-    width: 100%;
-  }
+  width: 100%;
+}
   
-  .nav-item {
-    display: block;
-    /* background-color: purple; */
-    margin: 2px;
-  }
+.nav-item {
+  display: block;
+  /* background-color: purple; */
+  margin: 2px;
+}
   
-  .dropdown-menu {
-    background-color: orange;
-  }
+.dropdown-menu {
+  background-color: orange;
+}
   
+@media only screen and (max-width: 480px) {
+  #logoImage {
+      display: none;
+  }
+}

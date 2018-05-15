@@ -23,3 +23,8 @@
   font-family: 'Dancing Script', cursive;
 }
 
+@media only screen and (max-width: 480px) {
+  #parallax {
+      display: none;
+  }
+}
