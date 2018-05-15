@@ -1,0 +1,31 @@
+body { 
+	font-family: "Arial", "Helvetica", "sans-serif";
+}
+
+footer { 
+	background-color: grey;
+	font-style: italic;
+	text-align: center;
+	font-family: "Georgia", "Times New Roman", "serif";
+}
+
+/* Forms*/
+label { 
+	display: block;
+	float: left;
+	text-align: right;
+	width: 120px;
+	padding-right: 10px;
+} 
+
+input {
+	display: block;
+	border: 2px solid gray;
+    border-radius: 4px;
+}
+
+input[type=text]:focus {
+    background-color: lightgray;
+}
+/* End of Forms */
+
