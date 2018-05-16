@@ -29,3 +29,6 @@ input[type=text]:focus {
 }
 /* End of Forms */
 
+.col-sm-4 {
+	color:#193760;
+  }
