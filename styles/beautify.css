@@ -2,6 +2,18 @@ body {
 	font-family: "Arial", "Helvetica", "sans-serif";
 }
 
+h5 {
+	text-align: center;
+  font-weight: bold;
+}
+
+
+
+#faq {
+	text-align: center;
+	background-color: #f2f2f2;
+}
+
 /* Forms */
 label {
 	display: block;
@@ -54,6 +66,23 @@ input[type=text]:focus {
 	border-top: 2px solid MidnightBlue ;
 	border-bottom: 2px solid MidnightBlue ;
 	color: MidnightBlue ;
+}
+
+table {
+	text-align: center;
+	border: solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
+}
+
+#tabler {
+  background-color: #f2f2f2;
+}
+
+#abovefaq{
+	  background-color: #f2f2f2;
 }
 
 footer {
