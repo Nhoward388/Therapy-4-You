@@ -2,13 +2,6 @@ body {
 	font-family: "Arial", "Helvetica", "sans-serif";
 }
 
-footer {
-	background-color: grey;
-	font-style: italic;
-	text-align: center;
-	font-family: "Georgia", "Times New Roman", "serif";
-}
-
 /* Forms */
 label {
 	display: block;
@@ -55,11 +48,18 @@ input[type=text]:focus {
 }
 /* End of Signtheme */
 
-
 #donationhone {
 	display: flex; justify-content: center;
 	background-color: white;
 	border-top: 2px solid MidnightBlue ;
 	border-bottom: 2px solid MidnightBlue ;
 	color: MidnightBlue ;
+}
+
+footer {
+	background-color: #26CBDC;
+	text-align: center;
+	font-family: "Georgia", "Times New Roman", "serif";
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
