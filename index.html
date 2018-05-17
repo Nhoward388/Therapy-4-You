@@ -4,49 +4,50 @@
   <head>
     <meta charset="utf-8">
     <title>Therapy 4 You</title>
+	<link rel="stylesheet" href="styles/beautify.css">	
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/index.css">
   </head>
   <body>
     <div class="container">
-      <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="sticky-sm-top navbar navbar-expand-lg navbar-light bg-light">
         <div class="navbar-collapse" id="navbarSupportedContent">
           <div class="row navbar">
-            <div class="col-sm-4" id="logoImage">
-              <img src="images/T4U.png" alt="Logo">
+            <div class="col-sm-4">
+              <img src="images/logo6.png" alt="Logo" width="180" height="160">
             </div>
             <div class="col-sm-4">
-              <h1>Therapy 4 You</h1>              
+              <h1>Therapy 4 You</h1>
             </div>
             <div class="col-sm-4">
-              <ul class="navbar-nav mr-auto navButtons">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="therapy.html">Therapy</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sign-In
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="signIn.html">Sign-In</a>
-                    <a class="dropdown-item" href="signUp.html">Sign-Up</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Contribute
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="donation.html">Donate</a>
-                    <a class="dropdown-item" id="merchandise" href="shopping.html">Merchandise</a>
-                  </div>
-                </li>
-              </ul>
-            </div>
+                <ul class="navbar-nav mr-auto navButtons">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="therapy.html">Therapy</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Sign-In
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="signIn.html">Sign-In</a>
+                      <a class="dropdown-item" href="signUp.html">Sign-Up</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Contribute
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="donation.html">Donate</a>
+                      <a class="dropdown-item" id="merchandise" href="shopping.html">Merchandise</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
           </div>
         </div>
       </nav>
@@ -56,25 +57,29 @@
       <main>
         <div class="row">
           <div class="col-sm-8">
-            <h1>About Us</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h1>Who We Are</h1>
+            <p>Therapy For You was founded by Nathan Howard, Michael Solomon, and Tabitha Siclovan in 2018. T4U is an online therapy company that seeks to provide easy access to proper and beneficial therapy that is not only accessible but affordable. We use direct messaging, webcam, among others to provide counseling and therapy from anywhere. </p>
+            <div><img id="portrait" src="images/portrait.png" alt=""></div>
+            <div><img id="tabitha" src="images/tabitha.png" alt=""></div>
+            <div><img id="michael" src="images/michael.jpg" alt=""></div>
           </div>
           <div class="col-sm-4">
-              <img class="img-thumbnail" src="images/therapy2.jpg" alt="Therapy Session"/>
+              <img class="img-thumbnail" id="therapyImage" src="images/hands.png" alt="Therapy Session"/>
+              <h1>Our Vision</h1>
+              <p>The path to healing the mind, and finding peace and tranquility in the midst of life’s storms by providing quality and accessible mental care </p>
           </div>
         </div>
       </main>
       <footer>
-        <div class="row">
-          <div class="col-6">
-            <p class="text-center footer">Copyright Info</p>
+          <div class="row">
+           <div class="col-6">
+             Copyright © 2016 Therapy 4 You
+           </div>
+           <div class="col-6">
+             <a href="mailto: ">contact@therapy4you.com</a> 
+           </div>
           </div>
-          <div class="col-6">
-            <p class="text-center footer">Contact Us</p>
-          </div>
-        </div>
-      </footer>
+     </footer>
     </div>
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>

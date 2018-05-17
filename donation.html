@@ -4,52 +4,50 @@
   <head>
     <meta charset="utf-8">
     <title>Therapy 4 You</title>
+	<link rel="stylesheet" href="styles/beautify.css">
     <link rel="stylesheet" href="styles/bootstrap.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/donation.css">
   </head>
   <body>
     <div class="container">
-      <nav class="sticky-top navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="sticky-sm-top navbar navbar-expand-lg navbar-light bg-light">
         <div class="navbar-collapse" id="navbarSupportedContent">
           <div class="row navbar">
-            <div class="col-sm-4" id="logoImage">
-              <img src="images/T4U.png" alt="Logo">
+            <div class="col-sm-4">
+              <img src="images/logo6.png" alt="Logo" width="180" height="160">
             </div>
             <div class="col-sm-4">
-              <ul class="navbar-nav mr-auto navButtons">
-                <li class="nav-item active">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="therapy.html">Therapy</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Sign-In
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="signIn.html">Sign-In</a>
-                    <a class="dropdown-item" href="signUp.html">Sign-Up</a>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Contribute
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="donation.html">Donate</a>
-                    <a class="dropdown-item" id="merchandise" href="shopping.html">Merchandise</a>
-                  </div>
-                </li>
-              </ul>
+              <h1>Therapy 4 You</h1>
             </div>
             <div class="col-sm-4">
-              <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-            </div>
+                <ul class="navbar-nav mr-auto navButtons">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="therapy.html">Therapy</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Sign-In
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="signIn.html">Sign-In</a>
+                      <a class="dropdown-item" href="signUp.html">Sign-Up</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Contribute
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="donation.html">Donate</a>
+                      <a class="dropdown-item" id="merchandise" href="shopping.html">Merchandise</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
           </div>
         </div>
       </nav>
@@ -69,12 +67,15 @@
             <div class="row" id="inputs">
               <fieldset id="details">
                 <legend>Donation Details</legend>
-                <label class="details" for="donationAmount">Donation Amount</label>
-                <input class="details" type="number" name="donationAmount" id="donationAmount">
-                <label class="details" for="name">Name</label>
-                <input class="details" type="text" name="name" id="name">
-                <label class="details" for="date">Date</label>
-                <input class="details" type="text" name="date" id="date">
+				
+                <label class="details" for="donationAmount">Donation Amount:</label>
+                <input class="details" type="number" name="donationAmount" id="donationAmount"> <br><br>
+				
+                <label class="details" for="name">Name:</label>
+                <input class="details" type="text" name="name" id="name"> <br>
+				
+                <label class="details" for="date">Date:</label>
+                <input class="details" type="date" name="date" id="date">
               </fieldset>
             </div>
               <div class="row">
@@ -85,16 +86,15 @@
               </div>
           </form>
       </div>
-
-      <footer>
-        <div class="row">
-          <div class="col-6">
-            <p class="text-center footer">Copyright Info</p>
-          </div>
-          <div class="col-6">
-            <p class="text-center footer">Contact Us</p>
-          </div>
-        </div>
+         <footer>
+           <div class="row">
+            <div class="col-6">
+              Copyright © 2016 Therapy 4 You
+            </div>
+            <div class="col-6">
+              <a href="mailto: ">contact@therapy4you.com</a> 
+            </div>
+           </div>
       </footer>
     </div>
     <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>

@@ -1,13 +1,14 @@
 .dropdown-menu {
-  background-color: orange;
+  background-color: #26CBDC;
 }
+
 
 #parallax {
   clear: both;
   width: 100%;
   height: 300px;
-  background: url(../images/therapy.jpg);
-  background-attachment: fixed;
+  background: url(../images/contemplate.jpg);
+  background-attachment: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -23,8 +24,47 @@
   font-family: 'Dancing Script', cursive;
 }
 
+footer div.col-6 {
+background-color: #26CBDC;
+}
+
+body {
+  background-color: rgba(178, 234, 237, 0.88);
+}
+
+div.col-sm-8 {
+  background-color: rgba(178, 234, 237, 0.88);
+  right: -1%;
+}
+
+.col-sm-4 {
+  color:#193760;
+}
+
+#tabitha {
+  height: 200px;
+  width: 150px;
+  float: left;
+  display: inline;
+  margin-left: 10px;
+}
+#portrait{
+  height: 200px;
+  width: 200px;
+  float: left; 
+  display: inline; 
+}
+
+#michael {
+  height: 200px;
+  width:200px;
+  float: left; 
+  display:inline; 
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 480px) {
-  #parallax {
-      display: none;
+  #parallax, #therapyImage {
+    display: none;
   }
 }

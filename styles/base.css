@@ -1,6 +1,7 @@
 .navbar {
-  width: 100%;
-}
+    width: 100%;
+    background-color: #26CBDC;
+  }
   
 .nav-item {
   display: block;
@@ -15,5 +16,9 @@
 @media only screen and (max-width: 480px) {
   #logoImage {
       display: none;
+  }
+
+  .col-sm-4 {
+    color:#193760;
   }
 }
