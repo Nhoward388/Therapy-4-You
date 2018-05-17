@@ -1,18 +1,18 @@
 .navbar {
     width: 100%;
     background-color: #26CBDC;
+
   }
-  
+
 .nav-item {
   display: block;
-  /* background-color: purple; */
   margin: 2px;
 }
-  
+
 .dropdown-menu {
-  background-color: orange;
+  background-color: none;
 }
-  
+
 @media only screen and (max-width: 480px) {
   #logoImage {
       display: none;

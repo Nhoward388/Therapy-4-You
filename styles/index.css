@@ -1,7 +1,6 @@
 .dropdown-menu {
-  background-color: #26CBDC;
+  background-color: none;
 }
-
 
 #parallax {
   clear: both;
@@ -48,18 +47,19 @@ div.col-sm-8 {
   display: inline;
   margin-left: 10px;
 }
+
 #portrait{
   height: 200px;
   width: 200px;
-  float: left; 
-  display: inline; 
+  float: left;
+  display: inline;
 }
 
 #michael {
   height: 200px;
   width:200px;
-  float: left; 
-  display:inline; 
+  float: left;
+  display:inline;
   margin-left: 10px;
 }
 
