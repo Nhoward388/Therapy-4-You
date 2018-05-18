@@ -1,6 +1,9 @@
 .navbar {
     width: 100%;
     background-color: #26CBDC;
+    background: linear-gradient(#26CBDC,rgb(58, 130, 147));
+    /* background: linear-gradient(#26CBDC, #193760); */
+
   }
 
 .nav-item {
@@ -24,4 +27,10 @@
 
 #faq h5 {
   color: #193760;
+}
+
+div.col-sm-4 h1 {
+  font-family: "Georgia", "Times New Roman", "serif";
+text-align: left;
+font-size: 3em;
 }

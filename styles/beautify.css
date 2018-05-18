@@ -8,7 +8,11 @@ h5 {
 	padding: 10px;
 }
 
-
+@media only screen and (max-width: 480px) {
+ #tabler {
+    display: none;
+  }
+}
 
 #faq {
 	/* text-align: center; */
@@ -88,6 +92,7 @@ table {
 }
 
 footer {
+	/* background: linear-gradient(#26CBDC,rgb(58, 130, 147)); */
 	background-color: #26CBDC;
 	text-align: center;
 	font-family: "Georgia", "Times New Roman", "serif";
