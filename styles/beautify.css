@@ -1,22 +1,12 @@
+/* Set font for all of the body text */
 body {
 	font-family: "Georgia", "Times New Roman", "serif";
 }
 
+/* All h5 headings are made bold with 10px of padding */
 h5 {
 	/* text-align: center; */
   font-weight: bold;
-	padding: 10px;
-}
-
-@media only screen and (max-width: 480px) {
- #tabler {
-    display: none;
-  }
-}
-
-#faq {
-	/* text-align: center; */
-	background-color: #f2f2f2;
 	padding: 10px;
 }
 
@@ -29,6 +19,7 @@ label {
 	padding-right: 10px;
 }
 
+/*Input styles */
 input {
 	display: block;
 	border: 2px solid gray;
@@ -40,18 +31,19 @@ input[type=text]:focus {
 }
 /* End of Forms */
 
-.col-sm-4 {
-	color:#193760;
+/*Table styles  */
+table {
+	text-align: center;
+	border: solid;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 65%;
 }
 
-/* Signtheme */
-#signform {
-	display: flex; justify-content: center;
-  background-color: #f2f2f2;
-  text-align: center;
-	font-weight: bold;
-	padding-top: 20px;
-  padding-bottom: 20px;
+/* Styles for classes */
+.col-sm-4 {
+	color:#193760;
 }
 
 .signtheme {
@@ -66,21 +58,23 @@ input[type=text]:focus {
 }
 /* End of Signtheme */
 
+/* Signtheme */
+/* Styles for all id's in the html */
+#signform {
+	display: flex; justify-content: center;
+  background-color: #f2f2f2;
+  text-align: center;
+	font-weight: bold;
+	padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 #donationhone {
 	display: flex; justify-content: center;
 	background-color: white;
 	border-top: 2px solid MidnightBlue ;
 	border-bottom: 2px solid MidnightBlue ;
 	color: MidnightBlue ;
-}
-
-table {
-	text-align: center;
-	border: solid;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 65%;
 }
 
 #tabler {
@@ -91,6 +85,13 @@ table {
 	  background-color: #f2f2f2;
 }
 
+#faq {
+	/* text-align: center; */
+	background-color: #f2f2f2;
+	padding: 10px;
+}
+
+/* Footer styles */
 footer {
 	/* background: linear-gradient(#26CBDC,rgb(58, 130, 147)); */
 	background-color: #26CBDC;
@@ -98,4 +99,11 @@ footer {
 	font-family: "Georgia", "Times New Roman", "serif";
 	padding-top: 10px;
 	padding-bottom: 10px;
+}
+
+/* Styles for mobile */
+@media only screen and (max-width: 480px) {
+ #tabler {
+    display: none;
+  }
 }

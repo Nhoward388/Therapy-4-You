@@ -1,7 +1,9 @@
+/* No background color for the dropdown */
 .dropdown-menu {
   background-color: none;
 }
 
+/* Image styles */
 #parallax {
   clear: both;
   width: 100%;
@@ -13,6 +15,7 @@
   background-size: cover;
 }
 
+/* h1 styles of image */
 #parallax h1 {
   float: right;
   margin-right: 2%;
@@ -23,11 +26,13 @@
   font-family: 'Dancing Script', cursive;
 }
 
+/* h2 font styles */
 h2 {
   text-align: center;
   font-weight: bold;
 }
 
+/* main section styles */
 main {
   background-color: #f2f2f2;
 	padding-top: 10px;
@@ -38,6 +43,7 @@ main {
 	margin-left: auto;
 }
 
+/* Made the body color white */
 body {
   background-color: white;
 }
@@ -52,6 +58,7 @@ body {
   padding-left: 10px;
 }
 
+/* Added styles to the images of us and to the text that goes along with the images */
 #nathan {
   height: 200px;
   width: 200px;
@@ -97,6 +104,7 @@ border: 1px solid black;
   padding-left: 10px;
 }
 
+/* Added floats and width and height to the images */
 #therapyImage {
   float: left;
 }
@@ -112,17 +120,19 @@ border: 1px solid black;
   height: auto;
 }
 
+/* Centered the text */
 .contrib {
   text-align: center;
 }
 
+/* Font styles for the h1 heading in nav */
 div.col-sm-4 h1 {
   	font-family: "Georgia", "Times New Roman", "serif";
     text-align: left;
     font-size: 3em;
   }
 
-
+/* Styles for moblie to make it responsive */
 @media only screen and (max-width: 480px) {
   #parallax, #therapyImage, #smile {
     display: none;

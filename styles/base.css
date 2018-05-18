@@ -1,8 +1,9 @@
+/* Styles for the navigation bar */
 .navbar {
     width: 100%;
     background-color: #26CBDC;
-    background: linear-gradient(#26CBDC,rgb(58, 130, 147));
-    /* background: linear-gradient(#26CBDC, #193760); */
+    /* background: linear-gradient(#26CBDC,rgb(58, 130, 147)); */
+    background: linear-gradient(#26CBDC, rgb(60, 132, 150));
 
   }
 
@@ -15,6 +16,18 @@
   background-color: none;
 }
 
+#faq h5 {
+  color: #193760;
+}
+
+/* Added text properties for cleaner look */
+div.col-sm-4 h1 {
+  font-family: "Georgia", "Times New Roman", "serif";
+text-align: left;
+font-size: 3em;
+}
+
+/* Media query for mobile, removes the image when mobile */
 @media only screen and (max-width: 480px) {
   #logoImage {
       display: none;
@@ -23,14 +36,4 @@
   .col-sm-4 {
     color:#193760;
   }
-}
-
-#faq h5 {
-  color: #193760;
-}
-
-div.col-sm-4 h1 {
-  font-family: "Georgia", "Times New Roman", "serif";
-text-align: left;
-font-size: 3em;
 }
