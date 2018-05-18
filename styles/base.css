@@ -2,9 +2,8 @@
 .navbar {
     width: 100%;
     background-color: #26CBDC;
-    /* background: linear-gradient(#26CBDC,rgb(58, 130, 147)); */
     background: linear-gradient(#26CBDC, rgb(60, 132, 150));
-
+    text-align: justify-content;
   }
 
 .nav-item {
@@ -23,8 +22,8 @@
 /* Added text properties for cleaner look */
 div.col-sm-4 h1 {
   font-family: "Georgia", "Times New Roman", "serif";
-text-align: left;
-font-size: 3em;
+  text-align: left;
+  font-size: 3em;
 }
 
 /* Media query for mobile, removes the image when mobile */
@@ -33,7 +32,10 @@ font-size: 3em;
       display: none;
   }
 
+  border: none;
+
   .col-sm-4 {
     color:#193760;
+
   }
 }
