@@ -19,6 +19,15 @@
   color: #193760;
 }
 
+#faq {
+  text-align: center;
+}
+
+#faq p {
+  text-align: center;
+  margin: 10px 10px 10px 10px;
+}
+
 /* Added text properties for cleaner look */
 div.col-sm-4 h1 {
   font-family: "Georgia", "Times New Roman", "serif";
